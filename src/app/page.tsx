@@ -16,7 +16,14 @@ export default function Home() {
               Calculator
             </Link>
           </li>
-          {/* TODO: add apps here */}
+					<li>
+						<Link 
+							href="/todo" 
+							className="block w-full text-center bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md transition duration-300 ease-in-out"
+						>
+							Todo List
+						</Link>
+					</li>
         </ul>
       </div>
     </div>
